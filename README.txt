@@ -30,3 +30,10 @@ Boton Login://*[@class='btn btn-link text-uppercase mt-3 font-weight-bold text-w
 Boton Log In://button[@type='submit']
 Campo Company:id="airline"
 Campo User:id="airline-email-3"
+
+Herramientas utilizadas:
+-Eclipse
+-Java 1.8
+-Selenium
+-Cucumber(Gherking)
+-Junit
