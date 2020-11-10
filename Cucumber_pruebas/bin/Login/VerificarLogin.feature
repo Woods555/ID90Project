@@ -1,0 +1,15 @@
+Feature: Realizar un login sobre una pagina
+  I want to use this template for my feature file
+   
+ @tagid90-Login
+  Scenario: Realiza login con datos validos
+    Given Abrir el navegador y la pagina "https://beta.id90travel.com/login"
+    And el usuario espera pagina
+    And Una vez que se abra escribir el company "AEROLINEAS ARGENTINAS (AR)"
+    And Escrbir usuario "qatest"
+    And Escrbir password "12345"
+    When Dar en click en Log In
+    And el usuario espera pagina
+    Then Entra a la pagina logueandose correctamente y verifica
+    And Cierra el navegador
+    
