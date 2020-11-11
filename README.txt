@@ -15,21 +15,23 @@ sino estan o faltan, viene la parte de test design, donde creamos los casos de p
 
 Escenario de prueba:
 1.Verificar que la pagina se haya cargado correctamente
-Paginas necesarias: Home
+Paginas necesarias: Home, Login
 2.Verificar que un cliente pueda hacer login
-Paginas necesarias: Login
+Paginas necesarias: Home, Login, Search
 (Si tengo tiempo)
 3.Verificar que el cliente pueda seleccionar un hotel
-Paginas necesarias: Login, Buscar Hotel
+Paginas necesarias: Login, Search
 4.Verificar que el cliente pueda seleccionar un auto
-Paginas necesarias: Login, Buscar Hotel
+Paginas necesarias: Login, Search
 
 Boton GET STARTED://*[@class='btn btn-primary text-uppercase gtm-get-started-btn']
 Boton Login://*[@class='btn btn-link text-uppercase mt-3 font-weight-bold text-white d-lg-none']
+Boton Log In://button[@type='submit']
 
 Boton Log In://button[@type='submit']
 Campo Company:id="airline"
 Campo User:id="airline-email-3"
+Mensaje Contact us: //*[@class='primary-content gtm-footer-link']
 
 Herramientas utilizadas:
 -Eclipse
