@@ -6,10 +6,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="Modulos"/>
-	<classpathentry kind="src" path="Metodos"/>
-	<classpathentry kind="src" path="Funciones"/>
-	<classpathentry kind="src" path="Utilerias"/>
+	<classpathentry kind="src" path="Modules"/>
+	<classpathentry kind="src" path="Funtions"/>
+	<classpathentry kind="src" path="Utilities"/>
 	<classpathentry kind="lib" path="C:/Librerias/cucumber-core-1.2.5.jar"/>
 	<classpathentry kind="lib" path="C:/Librerias/cucumber-html-0.2.3.jar"/>
 	<classpathentry kind="lib" path="C:/Librerias/cucumber-java-1.2.5.jar"/>

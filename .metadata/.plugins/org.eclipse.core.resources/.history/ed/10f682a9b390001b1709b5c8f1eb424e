@@ -1,0 +1,11 @@
+Feature: Verify the user can login correctly
+  I want to use this template for my feature file
+   
+  @tagid90-Home
+  Scenario: Verify the user can login correctly
+    Given Open the browser and the page "https://beta.id90travel.com"
+    And The tool waits the page is charged
+    Then The tool can see the button Get Started
+    And Clickea el boton Log In
+    Then Verifica elemento en Log In
+    And The tool closes the current driver

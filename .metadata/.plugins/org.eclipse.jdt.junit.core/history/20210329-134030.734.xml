@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberRunner" project="Cucumber_pruebas" tests="15" started="15" failures="0" errors="0" ignored="5">
+  <testsuite name="cucumber.CucumberRunner" time="12.916">
+    <testsuite name="Feature: Verify the user can login correctly" time="8.141">
+      <testsuite name="Scenario: Verfy the user can login correctly" time="8.141">
+        <testcase name="Given Open the browser and the page &quot;https://beta.id90travel.com&quot;" classname="Scenario: Verfy the user can login correctly" time="0.005"/>
+        <testcase name="And el usuario espera pagina" classname="Scenario: Verfy the user can login correctly" time="0.033"/>
+        <testcase name="Then El Cliente puede ver el boton Get Started" classname="Scenario: Verfy the user can login correctly" time="3.913"/>
+        <testcase name="And Clickea el boton Log In" classname="Scenario: Verfy the user can login correctly" time="0.021"/>
+        <testcase name="Then Verifica elemento en Log In" classname="Scenario: Verfy the user can login correctly" time="4.168"/>
+        <testcase name="And Cierra el navegador" classname="Scenario: Verfy the user can login correctly" time="0.001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Makes a valid login" time="0.214">
+      <testsuite name="Scenario: Makes a valid login" time="0.214" incomplete="true">
+        <skipped/>
+        <testcase name="Given Open the browser and the page &quot;https://beta.id90travel.com/login&quot;" classname="Scenario: Makes a valid login" time="0.008"/>
+        <testcase name="And el usuario espera pagina" classname="Scenario: Makes a valid login" time="0.123"/>
+        <testcase name="And The tool writes the company &quot;AEROLINEAS ARGENTINAS (AR)&quot;" classname="Scenario: Makes a valid login" time="0.08"/>
+        <testcase name="And The tool writes the user &quot;qatest&quot;" classname="Scenario: Makes a valid login" time="0.001"/>
+        <testcase name="And The tool wirtes the password &quot;12345&quot;" classname="Scenario: Makes a valid login" time="0.001" ignored="true"/>
+        <testcase name="When The tool clicks Log In button" classname="Scenario: Makes a valid login" time="0.0" ignored="true"/>
+        <testcase name="And el usuario espera pagina" classname="Scenario: Makes a valid login" time="0.0" ignored="true"/>
+        <testcase name="Then Entra a la pagina logueandose correctamente y verifica" classname="Scenario: Makes a valid login" time="0.001" ignored="true"/>
+        <testcase name="And Cierra el navegador" classname="Scenario: Makes a valid login" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

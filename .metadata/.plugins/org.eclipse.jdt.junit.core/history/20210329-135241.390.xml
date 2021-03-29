@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberRunner" project="Cucumber_pruebas" tests="15" started="15" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumber.CucumberRunner" time="32.565">
+    <testsuite name="Feature: Verify the user can login correctly" time="13.911">
+      <testsuite name="Scenario: Verfy the user can login correctly" time="13.911">
+        <testcase name="Given Open the browser and the page &quot;https://beta.id90travel.com&quot;" classname="Scenario: Verfy the user can login correctly" time="0.006"/>
+        <testcase name="And el usuario espera pagina" classname="Scenario: Verfy the user can login correctly" time="0.034"/>
+        <testcase name="Then El Cliente puede ver el boton Get Started" classname="Scenario: Verfy the user can login correctly" time="9.689"/>
+        <testcase name="And Clickea el boton Log In" classname="Scenario: Verfy the user can login correctly" time="0.028"/>
+        <testcase name="Then Verifica elemento en Log In" classname="Scenario: Verfy the user can login correctly" time="4.152"/>
+        <testcase name="And The tool closes the current driver" classname="Scenario: Verfy the user can login correctly" time="0.001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Makes a valid login" time="12.24">
+      <testsuite name="Scenario: Makes a valid login" time="12.24">
+        <testcase name="Given Open the browser and the page &quot;https://beta.id90travel.com/login&quot;" classname="Scenario: Makes a valid login" time="0.004"/>
+        <testcase name="And el usuario espera pagina" classname="Scenario: Makes a valid login" time="0.128"/>
+        <testcase name="And The tool writes the company &quot;AEROLINEAS ARGENTINAS (AR)&quot;" classname="Scenario: Makes a valid login" time="0.081"/>
+        <testcase name="And The tool writes the user &quot;qatest&quot;" classname="Scenario: Makes a valid login" time="0.08"/>
+        <testcase name="And The tool writes the password &quot;12345&quot;" classname="Scenario: Makes a valid login" time="0.102"/>
+        <testcase name="When The tool clicks Log In button" classname="Scenario: Makes a valid login" time="0.004"/>
+        <testcase name="And el usuario espera pagina" classname="Scenario: Makes a valid login" time="7.666"/>
+        <testcase name="Then The user Logs In correctly and verify the page is charged" classname="Scenario: Makes a valid login" time="4.168"/>
+        <testcase name="And The tool closes the current driver" classname="Scenario: Makes a valid login" time="0.006"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

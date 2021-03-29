@@ -1,0 +1,15 @@
+Feature: Makes a valid login
+  I want to use this template for my feature file
+   
+ @tagid90-Login
+  Scenario: Makes a valid login
+    Given Open the browser and the page "https://beta.id90travel.com/login"
+    And el usuario espera pagina
+    And The tools writes the company "AEROLINEAS ARGENTINAS (AR)"
+    And Escrbir usuario "qatest"
+    And Escrbir password "12345"
+    When Dar en click en Log In
+    And el usuario espera pagina
+    Then Entra a la pagina logueandose correctamente y verifica
+    And Cierra el navegador
+    

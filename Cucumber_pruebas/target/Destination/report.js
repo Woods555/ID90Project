@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("VerificarHome.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("VerifyHome.feature");
 formatter.feature({
   "line": 1,
-  "name": "Verificar pagina Home y hacer click en Login",
+  "name": "Verify the user can login correctly",
   "description": "I want to use this template for my feature file",
-  "id": "verificar-pagina-home-y-hacer-click-en-login",
+  "id": "verify-the-user-can-login-correctly",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 5,
-  "name": "Verificar que el usuario pueda entrar a la pagina",
+  "name": "Verify the user can login correctly",
   "description": "",
-  "id": "verificar-pagina-home-y-hacer-click-en-login;verificar-que-el-usuario-pueda-entrar-a-la-pagina",
+  "id": "verify-the-user-can-login-correctly;verify-the-user-can-login-correctly",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -22,95 +22,95 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "Abrir el navegador y la pagina \"https://beta.id90travel.com\"",
+  "name": "Open the browser and the page \"https://beta.id90travel.com\"",
   "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "el usuario espera pagina",
+  "name": "The tool waits the page is charged",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "El Cliente puede ver el boton Get Started",
+  "name": "The tool can see the button Get Started",
   "keyword": "Then "
 });
 formatter.step({
   "line": 9,
-  "name": "Clickea el boton Log In",
+  "name": "The tool clicks Log In button2",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "Verifica elemento en Log In",
+  "name": "The tool verifies Log In button",
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "Cierra el navegador",
+  "name": "The tool closes the current driver",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
       "val": "https://beta.id90travel.com",
-      "offset": 32
+      "offset": 31
     }
   ],
-  "location": "Metodos1.abrir_el_navegador_y_la_pagina(String)"
+  "location": "Methods.open_the_browser_and_the_page(String)"
 });
 formatter.result({
-  "duration": 6725606501,
+  "duration": 4781158800,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.el_usuario_espera_pagina()"
+  "location": "Methods.the_tool_waits_the_page_is_charged()"
 });
 formatter.result({
-  "duration": 4051300,
+  "duration": 4205000,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.el_cliente_encuentra_el_boton()"
+  "location": "Methods.The_tool_can_see_the_button_Get_Started()"
 });
 formatter.result({
-  "duration": 39022500,
+  "duration": 32902500,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.Clickea_el_boton_Log_In()"
+  "location": "Methods.the_tool_clicks_Log_In_button2()"
 });
 formatter.result({
-  "duration": 2409874100,
+  "duration": 1950629700,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.Verifica_elemento_en_Log_In()"
+  "location": "Methods.The_tool_verifies_Log_In_button()"
 });
 formatter.result({
-  "duration": 22260200,
+  "duration": 27132100,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.cierra_el_navegador()"
+  "location": "Methods.the_tool_closes_the_current_drivers()"
 });
 formatter.result({
-  "duration": 33891700,
+  "duration": 4160408700,
   "status": "passed"
 });
-formatter.uri("VerificarLogin.feature");
+formatter.uri("VerifyLogin.feature");
 formatter.feature({
   "line": 1,
-  "name": "Realizar un login sobre una pagina",
+  "name": "Makes a valid login",
   "description": "I want to use this template for my feature file",
-  "id": "realizar-un-login-sobre-una-pagina",
+  "id": "makes-a-valid-login",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 5,
-  "name": "Realiza login con datos validos",
+  "name": "Makes a valid login",
   "description": "",
-  "id": "realizar-un-login-sobre-una-pagina;realiza-login-con-datos-validos",
+  "id": "makes-a-valid-login;makes-a-valid-login",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -122,134 +122,134 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "Abrir el navegador y la pagina \"https://beta.id90travel.com/login\"",
+  "name": "Open the browser and the page \"https://beta.id90travel.com/login\"",
   "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "el usuario espera pagina",
+  "name": "The tool waits the page is charged",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "Una vez que se abra escribir el company \"AEROLINEAS ARGENTINAS (AR)\"",
+  "name": "The tool writes the company \"AEROLINEAS ARGENTINAS (AR)\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "Escrbir usuario \"qatest\"",
+  "name": "The tool writes the user \"qatest\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "Escrbir password \"12345\"",
+  "name": "The tool writes the password \"12345\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 11,
-  "name": "Dar en click en Log In",
+  "name": "The tool clicks Log In button",
   "keyword": "When "
 });
 formatter.step({
   "line": 12,
-  "name": "el usuario espera pagina",
+  "name": "The tool waits the page is charged",
   "keyword": "And "
 });
 formatter.step({
   "line": 13,
-  "name": "Entra a la pagina logueandose correctamente y verifica",
+  "name": "The user Logs In correctly and verify the page is charged",
   "keyword": "Then "
 });
 formatter.step({
   "line": 14,
-  "name": "Cierra el navegador",
+  "name": "The tool closes the current driver",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
       "val": "https://beta.id90travel.com/login",
-      "offset": 32
+      "offset": 31
     }
   ],
-  "location": "Metodos1.abrir_el_navegador_y_la_pagina(String)"
+  "location": "Methods.open_the_browser_and_the_page(String)"
 });
 formatter.result({
-  "duration": 8099295600,
+  "duration": 4512864700,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.el_usuario_espera_pagina()"
+  "location": "Methods.the_tool_waits_the_page_is_charged()"
 });
 formatter.result({
-  "duration": 4040000,
+  "duration": 4265300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "AEROLINEAS ARGENTINAS (AR)",
-      "offset": 41
+      "offset": 29
     }
   ],
-  "location": "Metodos1.una_vez_que_se_abra_escribir_el_company(String)"
+  "location": "Methods.the_tool_writes_the_company(String)"
 });
 formatter.result({
-  "duration": 148321799,
+  "duration": 124236000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "qatest",
-      "offset": 17
+      "offset": 26
     }
   ],
-  "location": "Metodos1.escrbir_usuario(String)"
+  "location": "Methods.the_tool_writes_the_user(String)"
 });
 formatter.result({
-  "duration": 80045700,
+  "duration": 77982300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "12345",
-      "offset": 18
+      "offset": 30
     }
   ],
-  "location": "Metodos1.escrbir_password(String)"
+  "location": "Methods.the_tool_writes_the_password(String)"
 });
 formatter.result({
-  "duration": 82350400,
+  "duration": 75309000,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.dar_en_click_en_Log_In()"
+  "location": "Methods.the_tool_clicks_Log_In_button()"
 });
 formatter.result({
-  "duration": 79287500,
+  "duration": 78327400,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.el_usuario_espera_pagina()"
+  "location": "Methods.the_tool_waits_the_page_is_charged()"
 });
 formatter.result({
-  "duration": 5166700,
+  "duration": 7615800,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.entra_a_la_pagina_logueandose_correctamente()"
+  "location": "Methods.the_user_log_in_correctly_and_verify_the_page_is_charged()"
 });
 formatter.result({
-  "duration": 7675245700,
+  "duration": 7388791000,
   "status": "passed"
 });
 formatter.match({
-  "location": "Metodos1.cierra_el_navegador()"
+  "location": "Methods.the_tool_closes_the_current_drivers()"
 });
 formatter.result({
-  "duration": 27222600,
+  "duration": 4161168200,
   "status": "passed"
 });
 });
